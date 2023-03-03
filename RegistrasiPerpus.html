@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="csrf-param" content="_csrf">
+            <meta name="csrf-token" content="SXc4aGNVOVB.TxUADhFXPR8lUjwsZVgcLCB5AxJkXgglPm0.Gz1LAg==">
+        <title>Pendaftaran Anggota Online - Perpustakaan SMKN 4 Jakarta</title>
+            <!-- Tell the browser to be responsive to screen width -->
+            <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <link rel="shortcut icon" type='image/x-icon' href="https://images.smkn4jkt.sch.id/content/2022/03/logo-smkn4jkt.png">
+   
+</head>
+<body>
+    <header class="bgh">
+        <body>
+            <div id="container">
+            <div class="header"><center><img src="https://lms.smkn4jkt.sch.id/pluginfile.php/1/core_admin/logocompact/300x300/1628917099/logo-smkn4jkt.png" width="100" height="100"></center></div>
+            <div><h1 align="center">Registrasi Perpustakaan SMK Negeri 4 Jakarta</h1>
+                <hr width="900px">
+        </div>
+
+                <link rel="stylesheet" type="text/css" href="css/Login.css">
+            </head>
+            <body>
+                <form method="post" action="login_admin.php">
+            
+                <div class="tampilan">
+                <div class="kepala">
+                <div class="logo"></div>
+                <h2 class="judul">Registrasi Anggota</h2>
+                </div>
+                <div class="artikel">
+            
+            <div class="kesalahan">
+            <?php
+                    if(isset($_GET["login_error"])){
+                        echo "Username atau password salah";
+                    }
+                ?>
+            </div>
+            
+            <div class="kotak">
+                <p><input type="text" name="Nama Lengkap" value="" placeholder="Masukkan Nama Lengkap"></p>
+                <p><input type="text" name="username" value="" placeholder="Buat Username"></p>
+                <p><input type="password" name="password" value="" placeholder="Buat Password"></p>
+                <p><input type="password" name="password" value="" placeholder="Confirm Password"></p>
+            <hr>
+                    <tr>NIS</tr>
+                    <p><input type="text" name="NIS" value="" placeholder="Masukan NIS"></p>
+                <hr>
+            <hr>
+                    <tr>Masukan Tanggal Lahir</tr>
+                    <p><input type="date" name="Tanggal Lahir" value="" placeholder="Masukan Tanggal Lahir" id=""></p>
+            <hr>
+            <hr>
+                <tr>Jenis Kelamin</tr>
+                    <p><input type="checkbox" name="Jenis Kelamin" value="" placeholder="Jenis Kelamin" id="TES"><td>Laki-laki</td></p>
+                    <p><input type="checkbox" name="Jenis Kelamin" value="" placeholder="Jenis Kelamin" id="TES"><td>Perempuan</td>
+            <hr>
+            
+            <hr>
+                    <tr>E-mail</tr>
+                    <p><input type="E-mail" name="Masukan E-mail" value="" placeholder="Masukan E-mail" id=""></p>
+            <hr>
+                    
+            <hr>
+                    <tr>Kelas</tr>
+                    <p><select name="Kelas" id="">
+                        <option value="">X</option>
+                        <option value="">XI</option>
+                        <option value="">XII</option>
+            </select>
+            
+            </p>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Daftar">
+                    <input type="button" value="kembali">
+                </td>
+
+        </p>
+            </form>
+            </div>
+            </div>
+            
+             </div>
+            </div>
+            </body>
+            </html> </li>
+        </ul>
+        </div>
+        </body>
+        </html>
+</body>
+</html>
